@@ -75,7 +75,7 @@
         
         .eq_img {
             padding: 20px;
-            border-radius: 10%;
+            border-radius: 30px;
             width: 100%;
             height: auto;
         }
@@ -163,7 +163,7 @@
             color: #90909a;
         }
         
-        @media only screen and (max-width: 400px) {
+        @media only screen and (max-width: 768px) {
             h1 {
                 font-size: 16px;
             }
@@ -171,17 +171,28 @@
                 margin: 5px;
                 margin-left: 2.5px;
                 margin-right: 2.5px;
-                width: 20rem;
+                width: 18rem;
             }
             .cards-title h1 {
                 font-size: 18px;
             }
             .card_title {
-                font-size: 22px;
+                font-size: 18px;
                 line-height: 25px;
             }
-            .bed-detail {}
+            .bed-detail {
+                margin: 0px;
+                /* font-size: ; */
+            }
             .price {
                 font-size: 20px;
+            }
+            .all-cards {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 3%;
+            }
+            .bed-bath li {
+                margin-right: 2px;
             }
         }
